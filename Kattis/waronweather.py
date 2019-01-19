@@ -1,6 +1,4 @@
-
 import math
-
 
 
 def dotproduct(v1, v2):
@@ -14,8 +12,6 @@ def angle(v1, v2):
 
 def vecSub(a, b):
     return [ (a[0]-b[0]) , (a[1]-b[1]) , (a[2]-b[2]) ]
-
-
 
 
 def main():
