@@ -1,7 +1,7 @@
 //
 // Abdulrahman Alattas
 // Apr 20-21, 2019
-// Time: 4 Hour 
+// Time: 5 Hours 
 // 
 // Solution for:
 // https://www.hackerrank.com/challenges/attribute-parser/problem
@@ -115,6 +115,8 @@ tag* buildTagTree(const string source[], int N){
 }
 
 
+// Given array of queries and the root of the source tree,
+// print the result of the queries
 void printResult(const string query[],const int Q, tag* root){
     for (int i=0; i<Q; i++){
         tag* currentTag = root;
